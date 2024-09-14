@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/cloud.svg" />
+    <script src="script.js" defer></script>
+    <title>Weather</title>
+  </head>
+  <body>
+    <h1>Weather</h1>
+    <div class="container">
+      <div class="weather-input">
+        <h3>Enter a City Name</h3>
+        <input class="city-input" type="text" placeholder="E.g. Tokyo, New York, London" />
+        <button class="search-btn">Search</button>
+        <div class="separator"></div>
+        <button class="location-btn">Current Location</button>
+      </div>
+      <div class="weather-data">
+        <div class="current-weather">
+          <div class="detalis">
+            <h2>London <span>12 / 9</span></h2>
+            <h4>
+              <img
+                class="svg"
+                src="img/temperature-quarter.svg"
+                alt="temperature"
+              />19°C
+            </h4>
+            <h4><img class="svg" src="img/wind.svg" alt="wind" /> 4.31 M/s</h4>
+            <h4><img class="svg" src="img/leaf.svg" alt="humidity" /> 79%</h4>
+          </div>
+          <div class="icon">
+            <img class="svg" src="img/sun.svg" alt="weather-icon" />
+            <h6>Sunny</h6>
+          </div>
+        </div>
+        <div class="days-forecast">
+          <h2>5-Day Forecast</h2>
+          <ul class="weather-cards">
+            <li class="card">
+              <center>
+                <h3><span>12 / 9</span></h3>
+                <img style="margin: 10px 0;" class="svg" src="img/sun.svg" alt="weather-icon" />
+              </center>
+              <h4>
+                <img
+                  class="svg"
+                  src="img/temperature-quarter.svg"
+                  alt="temperature"
+                />19°C
+              </h4>
+              <h4>
+                <img class="svg" src="img/wind.svg" alt="wind" /> 4.31 M/s
+              </h4>
+              <h4><img class="svg" src="img/leaf.svg" alt="humidity" /> 79%</h4>
+            </li>
+            <li class="card">
+              <center>
+                <h3><span>12 / 9</span></h3>
+                <img style="margin: 10px 0;" class="svg" src="img/sun.svg" alt="weather-icon" />
+              </center>
+              <h4>
+                <img
+                  class="svg"
+                  src="img/temperature-quarter.svg"
+                  alt="temperature"
+                />19°C
+              </h4>
+              <h4>
+                <img class="svg" src="img/wind.svg" alt="wind" /> 4.31 M/s
+              </h4>
+              <h4><img class="svg" src="img/leaf.svg" alt="humidity" /> 79%</h4>
+            </li>
+            <li class="card">
+              <center>
+                <h3><span>12 / 9</span></h3>
+                <img style="margin: 10px 0;" class="svg" src="img/sun.svg" alt="weather-icon" />
+              </center>
+              <h4>
+                <img
+                  class="svg"
+                  src="img/temperature-quarter.svg"
+                  alt="temperature"
+                />19°C
+              </h4>
+              <h4>
+                <img class="svg" src="img/wind.svg" alt="wind" /> 4.31 M/s
+              </h4>
+              <h4><img class="svg" src="img/leaf.svg" alt="humidity" /> 79%</h4>
+            </li>
+            <li class="card">
+              <center>
+                <h3><span>12 / 9</span></h3>
+                <img style="margin: 10px 0;" class="svg" src="img/sun.svg" alt="weather-icon" />
+              </center>
+              <h4>
+                <img
+                  class="svg"
+                  src="img/temperature-quarter.svg"
+                  alt="temperature"
+                />19°C
+              </h4>
+              <h4>
+                <img class="svg" src="img/wind.svg" alt="wind" /> 4.31 M/s
+              </h4>
+              <h4><img class="svg" src="img/leaf.svg" alt="humidity" /> 79%</h4>
+            </li>
+            <li class="card">
+              <center>
+                <h3><span>12 / 9</span></h3>
+                <img style="margin: 10px 0;" class="svg" src="img/sun.svg" alt="weather-icon" />
+              </center>
+              <h4>
+                <img
+                  class="svg"
+                  src="img/temperature-quarter.svg"
+                  alt="temperature"
+                />19°C
+              </h4>
+              <h4>
+                <img class="svg" src="img/wind.svg" alt="wind" /> 4.31 M/s
+              </h4>
+              <h4><img class="svg" src="img/leaf.svg" alt="humidity" /> 79%</h4>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="circle"></div>
+    <div id="circlesm"></div>
+  </body>
+</html>
